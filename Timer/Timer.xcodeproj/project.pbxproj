@@ -68,21 +68,69 @@
 		DFBAEBFB2B69E226002A2410 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				DFBAEBFC2B69E226002A2410 /* AppDelegate.swift */,
-				DFBAEBFE2B69E226002A2410 /* SceneDelegate.swift */,
-				DFBAEC002B69E226002A2410 /* TimeSettingViewController.swift */,
-				DF5850672B6BAD1D00CCA445 /* TimerViewController.swift */,
-				DFBAEC102B69E46E002A2410 /* TimeSettingView.swift */,
+				DFD4BBBC2B727BCD00749AE4 /* Resources */,
+				DFD4BBBB2B727BAB00749AE4 /* Sources */,
+				DFD4BBBD2B727BDA00749AE4 /* BottomAlert */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		DFD4BBB82B727B7700749AE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				DF5850442B6B3A2100CCA445 /* TimerService.swift */,
 				DF5850462B6B3CDC00CCA445 /* TimerType.swift */,
 				DF750AF92B6F8CEB00D7EF07 /* TimerModel.swift */,
-				DFBAEC052B69E228002A2410 /* Assets.xcassets */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFD4BBB92B727B8C00749AE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				DFBAEC072B69E228002A2410 /* LaunchScreen.storyboard */,
+				DFBAEC102B69E46E002A2410 /* TimeSettingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFD4BBBA2B727B9700749AE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DFBAEC002B69E226002A2410 /* TimeSettingViewController.swift */,
+				DF5850672B6BAD1D00CCA445 /* TimerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DFD4BBBB2B727BAB00749AE4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DFD4BBB82B727B7700749AE4 /* Models */,
+				DFD4BBB92B727B8C00749AE4 /* Views */,
+				DFD4BBBA2B727B9700749AE4 /* Controller */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DFD4BBBC2B727BCD00749AE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFBAEBFC2B69E226002A2410 /* AppDelegate.swift */,
+				DFBAEBFE2B69E226002A2410 /* SceneDelegate.swift */,
+				DFBAEC052B69E228002A2410 /* Assets.xcassets */,
 				DFBAEC0A2B69E228002A2410 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DFD4BBBD2B727BDA00749AE4 /* BottomAlert */ = {
+			isa = PBXGroup;
+			children = (
 				DFBAEC352B6A3643002A2410 /* BottomAlert.swift */,
 				DFBAEC372B6A4177002A2410 /* BottomAlertManager.swift */,
 			);
-			path = Timer;
+			path = BottomAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
